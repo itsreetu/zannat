@@ -1,0 +1,169 @@
+*{
+            margin:2px;
+            padding:2px;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#b4daf8;
+            color:white;
+            padding:20px;
+        }
+
+        header h1{
+            text-align:center;
+        }
+
+        nav{
+            margin-top:15px;
+        }
+
+        nav ul{
+            display:flex;
+            justify-content:right;
+            list-style:none;
+            gap:25px;
+        }
+
+        nav ul li a{
+            text-decoration:none;
+            color:white;
+            font-weight:bold;
+        }
+
+        nav ul li a:hover{
+            color:yellow;
+        }
+
+        
+        .welcome{
+            text-align:center;
+            padding:50px 20px;
+            box-shadow:0 0 10px rgb(118, 116, 116);
+        }
+
+        .welcome h2{
+            margin-bottom:15px;
+        }
+
+        .welcome p{
+            margin-bottom:20px;
+        }
+
+        .welcome button{
+            padding:12px 25px;
+            background:#003621;
+            color:white;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        .welcome button:hover{
+            background:#0056b3;
+        }
+
+      
+        .courses{
+            padding:40px 20px;
+        }
+
+        .courses h2{
+            text-align:center;
+            margin-bottom:30px;
+        }
+
+        .course-container{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            width:250px;
+            background:white;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px gray;
+            position:relative;
+        }
+
+        .badge{
+            position:absolute;
+            top:10px;
+            right:10px;
+            background:rgb(156, 46, 3);
+            color:white;
+            padding:5px 10px;
+            border-radius:5px;
+            font-size:12px;
+        }
+
+        
+        .notice{
+            padding:40px 20px;
+        }
+
+        .notice-box{
+            background:white;
+            padding:20px;
+            height:180px;
+            overflow:auto;
+            border:2px solid #8b8b87;
+        }
+
+        
+        .campus{
+            padding:40px 20px;
+            position:relative;
+        }
+
+        .image-box{
+            height:300px;
+            background:#eeeaea;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            font-size:25px;
+            color:#333;
+        }
+
+        .info-box{
+            width:300px;
+            background:white;
+            padding:20px;
+            box-shadow:0 0 10px gray;
+            position:absolute;
+            bottom:20px;
+            left:60px;
+        }
+
+        
+        .contact-btn{
+            position:fixed;
+            left:15px;
+            bottom:15px;
+            background:#28a745;
+            color:white;
+            padding:15px 20px;
+            text-decoration:none;
+            border-radius:30px;
+            font-weight:bold;
+        }
+
+        
+        footer{
+            background:#080808;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:40px;
+        }
+
+
