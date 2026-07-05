@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#navbar{
+    background-color: pink;
+    height:25px;
+}
+button{
+    cursor: pointer;
+    background-color: white;
+    color:rgb(250, 173, 186);
+    width: 70px;
+    margin-left:1100px;
+    margin-top: -5px;
+    position: relative;
+    top:-13px;
+}
+#logo{
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-size: 25px;
+     font-weight: bold;
+     margin-left: 65px;
+     position: relative;
+     top:8px ;
+     margin-right: 450px;
+}
+a{
+    text-decoration: none;
+    margin-right: 25px;
+    position:relative;
+    top:15px;
+}
+#bc{
+    color:black;
+    margin-left:65px;
+    margin-top: 15px;
+    
+}
+#box1{
+    margin-left:130px ;
+    height:350px;
+    width:300px;
+    border-color: rgb(230, 152, 152);
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 70px;
+    background-image: url("images.jpg");
+    background-size: cover;
+    
+}
+h3{
+    margin-top: -15px;
+    margin-left: 380px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+h5{
+    margin-left: 380px;
+    width: 200px;
+    height:40px;
+    margin-top: 11px;
+    font-size: 25px;
+    font-weight:lighter;
+}
+#zr{
+    margin-left: 380px;
+    width:280px;
+    height:350px;
+    line-height: 30px;
+}
+#re{
+    margin-left:520px;
+    position: relative;
+    top: -60px;
+    width:150px;
+    height:30px;
+    color: white;
+    background-color: rgb(244, 168, 181);
+}
+#navbar1{
+    background-color: rgb(243, 218, 222);
+    height:300px;
+    margin-top: -17px;
+    padding: 0;
+}
+h4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+#box2{
+    margin-left: 170px;
+    height:170px;
+    width: 200px;
+    background-color: white;
+    position: relative;
+    top: 35px;
+}
+h6{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+#rr,#rs,#rt{
+    font-size:15px ;
+    margin-left: 10px;
+    text-align: center;
+    position: relative;
+    top:20px;
+    
+}
+#box3{
+    margin-left: 540px;
+    height:170px;
+    width: 200px;
+    background-color: white;
+    position: relative;
+    top:-165px;
+}
+h6{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+#box4{
+    margin-left: 890px;
+    height:170px;
+    width: 200px;
+    background-color: white;
+    position: relative;
+    top:-365px;
+}
+h6{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+}
+#navbar2{
+    position: relative;
+    top:-310px;
+    height:300px;
+    background-color: rgb(248, 247, 247);
+}
+h4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+#box5{
+    margin-left: 170px;
+    height:170px;
+    width: 200px;
+    position:relative;
+    top:22px;
+    background-color: white;
+    border-color: rgb(221, 182, 182);
+    background-image:url(book.jpg) ;
+    background-size: cover;
+}
+#box6{
+     margin-left: 530px;
+    height:170px;
+    width: 200px;
+    position:relative;
+    top:-150px;
+    background-color: white;
+    border-color: rgb(221, 182, 182);
+    background-image:url(Laptop.jpg) ;
+    background-size: cover;
+}
+#box7{
+    margin-left: 890px;
+    height:170px;
+    width: 200px;
+    position:relative;
+    top:-315px;
+    background-color: white;
+    border-color: rgb(221, 182, 182);
+    background-image:url(Phone.jpg) ;
+    background-size: cover;
+}
+#p1{
+    color: rgb(58, 2, 2);
+    margin-left: 240px;
+    position: relative;
+    top: -363px;
+}
+#p2{
+    color: rgb(58, 2, 2);
+    margin-left: 610px;
+    position: relative;
+    top: -380px;
+}
+#p3{
+    color: rgb(58, 2, 2);
+    margin-left: 950px;
+    position: relative;
+    top: -405px;
+}
+#bt{
+    background-color: rgb(174, 75, 75);
+    color: white;
+    margin-left: 585px;
+    width:100px;
+    height: 25px;
+    position: relative;
+    top: -340px;
+}
+footer{
+    height:100px;
+    background-color: rgb(236, 232, 232);
+    margin-top: -270px;
+}
+#ab{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+#tu{
+    text-align: center;
+}
