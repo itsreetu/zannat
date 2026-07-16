@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthyLife Medical Center</title>
+    <link rel="stylesheet" href="style7.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>HealthyLife Medical Center</h2>
+    <h4>Patient Appointment Registration</h4>
+
+    <form id="appointmentForm">
+
+        <label>First Name</label>
+        <input type="text" id="fname">
+        <small class="error" id="fnameError"></small>
+        <br/><br/>
+
+        <label>Last Name</label>
+        <input type="text" id="lname">
+        <small class="error" id="lnameError"></small>
+        <br/><br/>
+
+        <label>Email</label>
+        <input type="email" id="email">
+        <small class="error" id="emailError"></small>
+        <br/><br/>
+
+        <label>Password</label>
+        <input type="password" id="password">
+        <small class="error" id="passwordError"></small>
+        <br/><br/>
+
+        <label>Gender</label>
+
+        <div class="radio-group">
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+        </div>
+        <br/><br/>
+
+        <small class="error" id="genderError"></small>
+
+        <label>Preferred Service</label>
+        <div class="checkbox-group">
+            <input type="checkbox" class="service" value="General Checkup"> General Checkup
+            <br/><br/>
+            <input type="checkbox" class="service" value="Dental"> Dental
+            <br/><br/>
+            <input type="checkbox" class="service" value="Eye Care"> Eye Care
+        </div>
+        <br/><br/>
+
+        <small class="error" id="serviceError"></small>
+
+        <label>Doctor's Department</label>
+
+        <select id="department">
+            <option value="">Select Department</option>
+            <option>Cardiology</option>
+            <option>Neurology</option>
+            <option>Orthopedics</option>
+            <option>Dermatology</option>
+        </select>
+        <br/><br/>
+
+        <small class="error" id="departmentError"></small>
+
+        <label>Health Description</label>
+
+        <textarea id="description" rows="5"></textarea>
+        <small class="error" id="descriptionError"></small>
+        <br/><br/>
+        <button type="submit">Register Appointment</button>
+    </form>
+    <br/><br/>
+
+    <h5 id="successMessage"></h5>
+</div>
+<script src="script7.js"></script>
+
+</body>
+</html>
+</body>
+</html>
+

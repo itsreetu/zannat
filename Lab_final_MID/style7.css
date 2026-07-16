@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(250, 247, 247);
+}
+
+.container{
+    width:500px;
+    margin:30px auto;
+    background:rgb(237, 244, 245);
+    padding:30px;
+    border-radius:5px;
+    box-shadow:0 0 10px gray;
+}
+
+h2,h4{
+    text-align:center;
+    color: rgb(41, 33, 33);
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+input,select,textarea{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    box-sizing:border-box;
+}
+
+.radio-group,.checkbox-group{
+    margin-top:8px;
+}
+
+.radio-group input,
+.checkbox-group input{
+    width:auto;
+}
+
+button{
+    width:50%;
+    margin-top:20px;
+    margin-left:120px;
+    padding:10px;
+    background:rgb(4, 147, 4);
+    color:white;
+    border:none;
+    font-size:14px;
+    cursor:pointer;
+}
+
+.error{
+    color:red;
+    font-size:13px;
+}
+
+#successMessage{
+    color:rgb(3, 150, 3);
+    text-align:center;
+    margin-top:20px;
+}
